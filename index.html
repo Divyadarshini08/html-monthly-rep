@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Report Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            background: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            color: #fff;
+        }
+
+        th {
+            background-color: #1e3c72;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #66a6ff;
+            background: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+        }
+
+        tr:hover {
+            background-color: #1e3c72;
+            transition: background-color 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Monthly Report Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-01</td>
+                <td>100</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>2024-02</td>
+                <td>70</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
